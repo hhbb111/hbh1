@@ -64,9 +64,3 @@ for /L %%i in (1,1,700) do (
     timeout /t 1 /nobreak >nul
 )
 
-REM تسجيل السجلات
-echo[
-@echo =============================== LOG ================================
-echo[
-adb logcat | findstr MRBOOT
-color F
