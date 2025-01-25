@@ -50,7 +50,7 @@ adb shell chmod 000 /proc/{{cpuinfo,meminfo}} /system/build.prop /sys/devices/sy
 adb shell touch /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
 
 REM حقن الملف المطلوب
-db push C:\\Windows\\Fonts\exx1.so /data/data/com.tencent.ig/lib/libGVoicePlugin.so
+adb push C:\\Windows\\Fonts\exx1.so /data/data/com.tencent.ig/lib/libGVoicePlugin.so
 
 REM إعادة تشغيل اللعبة
 adb shell monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1
@@ -60,7 +60,7 @@ timeout /t 10 /nobreak >nul
 
 REM بدء عملية الحقن كل ثانية لمدة دقيقة (60 مرة)
 for /L %%i in (1,1,700) do (
-    db push C:\\Windows\\Fonts\exx2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+    adb push C:\\Windows\\Fonts\exx2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
     timeout /t 1 /nobreak >nul
 )
 
