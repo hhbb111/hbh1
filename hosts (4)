@@ -29,6 +29,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 local
 255.255.255.255 broadcasthost
 ::1 localhost
+127.0.0.1 conf.syzs.qq.com
+127.0.0.1 pm.myapp.com
+127.0.0.1 unifiedaccess.gameloop.com
+255.255.255.255 conf.syzs.qq.com
+255.255.255.255 pm.myapp.com
+255.255.255.255 unifiedaccess.gameloop.com
+
 127.0.0.1 loop   m mm   mmm    mmm   mm#mm
  #" "#   #"  " #" "#  #" "#    #
  #   #   #     #   #  #   #    #
