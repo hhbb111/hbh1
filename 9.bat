@@ -47,4 +47,5 @@ adb shell rm -rf /data/data/com.tencent.ig/files/AreaData.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/PersistedInstallation.QlJHYW1lRmlyZWJhc2VBcHA+MToxMDg5MTUxMTQ1MDE1OmFuZHJvaWQ6YTY2ZDAwMzkwNzMxYTAwNA.json
 adb shell rm -rf /data/data/com.tencent.ig/files/PersistedInstallation.W0RFRkFVTFRd+MToxMDg5MTUxMTQ1MDE1OmFuZHJvaWQ6YTY2ZDAwMzkwNzMxYTAwNA.json
 adb shell rm -rf /data/data/com.tencent.ig/files/TDM_KV.log.0
+adb shell rm -rf /data/data/com.tencent.ig/files/generatefid.lock
 goto:loop
