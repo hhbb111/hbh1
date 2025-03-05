@@ -6,7 +6,11 @@ adb root
 
 :loop
 
-
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ac_tmp
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/custom_cache
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/vm
@@ -14,9 +18,17 @@ adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ace_cache_db.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ace_host.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ace_shell_db.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/alc.i8.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano.ano3.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano.i.m.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano_app_915c.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano_cef.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano_cs_stat2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano_dfh.zip
@@ -24,6 +36,10 @@ adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano_r_record.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ano_uts_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/bmc.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/boc_rcd.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/cache_crc.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/cache_md5.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/comm.dat
@@ -35,12 +51,22 @@ adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/mn_cache.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/mrpcs.data
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/ob_x.zip
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/p_tlc6.d
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/pubgm_script_id_28.gs1.cdc
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/r_i7.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/sdk_host.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/SpeedUpCCH.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/SpeedUpCCH2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/SpeedUpSHC.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
+adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/tdm_cache.dat
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/tersafe.update
 adb shell rm -rf /data/data/com.tencent.ig/files/ano_tmp/tssmua.zip
