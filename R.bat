@@ -1,6 +1,3 @@
-@echo off
-adb kill-server
-adb root
 
 
 REM بدء عملية الحقن كل ثانية لمدة دقيقة (60 مرة)
