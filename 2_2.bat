@@ -56,10 +56,10 @@ adb shell rm -rf /data/data/com.tencent.ig/files/PersistedInstallation.QlJHYW1lR
 adb shell rm -rf /data/data/com.tencent.ig/files/PersistedInstallation.W0RFRkFVTFRd+MToxMDg5MTUxMTQ1MDE1OmFuZHJvaWQ6YTY2ZDAwMzkwNzMxYTAwNA.json
 adb shell rm -rf /data/data/com.tencent.ig/files/TDM_KV.log.0
 
-adb shell rm -rf /data/data/com.tencent.ig/apk.conf
-adb shell rm -rf /data/data/com.tencent.ig/egl.cfg
-adb shell rm -rf /data/data/com.tencent.ig/opengl.conf
-adb shell rm -rf /data/data/com.tencent.ig/translateex.conf
+adb shell rm -rf /data/data/apk.conf
+adb shell rm -rf /data/data/egl.cfg
+adb shell rm -rf /data/data/opengl.conf
+adb shell rm -rf /data/data/translateex.conf
 
 adb push C:\Windows\Fonts\C2.so /data/data/com.tencent.ig/files/ano_tmp/ano_emu_c2.dat
   
