@@ -1,0 +1,35 @@
+on init
+    # mkdir /mnt/shell/emulated 0700 shell shell
+    # mkdir /storage/emulated 0555 root root
+    
+    # export EXTERNAL_STORAGE /storage/emulated/legacy
+    # export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
+    # export EMULATED_STORAGE_TARGET /storage/emulated
+    
+    # mkdir /mnt/USB 0000 system system
+    # mkdir /mnt/shared 0775 root system
+    
+    on fs
+    mount_all /fstab.vbox86
+    
+    on post-fs-data
+    mkdir /data/misc/wifi 0770 wifi wifi
+    mkdir /data/misc/wifi/sockets 0770 wifi wifi
+    mkdir /data/misc/dhcp 0770 dhcp dhcp
+    chown dhcp dhcp /data/misc/dhcp
+    
+    on boot
+    setprop ARGH ARGH
+    setprop ro.radio.use-ppp no
+    setprop ro.com.google.locationfeatures 1
+    setprop android.device.id 60128865786773133
+    setprop gaid 540917d7-4c64-56e3-4484-edb5940ba3b7
+    setprop net.hostname 668637693348616859
+    setprop ro.android_id 72174v3a15895300
+    setprop ro.serialno BB18797421EA
+    
+    service genyd /system/bin/genyd
+    class core
+    seclabel u:r:genyd:s0
+    socket genyd stream 0660 root system
+    
