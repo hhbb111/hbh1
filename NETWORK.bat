@@ -11,7 +11,7 @@ title RESET NETWORK
 color 60
 echo ' > "deletethisfile.vbs"
 echo set speech = Wscript.CreateObject("SAPI.spVoice") >> "deletethisfile.vbs"
-echo speech.speak "Network reset in 5 seconds" >> "deletethisfile.vbs"
+echo speech.speak "Delete Reports in 5 seconds" >> "deletethisfile.vbs"
 start deletethisfile.vbs
 timeout /t 1
 del deletethisfile.vbs
