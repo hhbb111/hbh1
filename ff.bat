@@ -4,7 +4,7 @@ title RESET NETWORK
 
 :loop
 :num
-if exist deletethisfile.vbs goto num
+
 cls
 title RESET NETWORK
 
