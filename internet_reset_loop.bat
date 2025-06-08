@@ -1,31 +1,34 @@
 @echo off
-setlocal enabledelayedexpansion
-
-:: تغيير اسم كرت الشبكة إذا لزم
-set adapterName="Ethernet"
+mode con:cols=50 lines=11
+title RESET NETWORK
 
 :loop
-echo ======================================
-echo [!] جاري إعادة تشغيل الاتصال بالإنترنت...
-echo.
+:num
+if exist deletethisfile.vbs goto num
+cls
+title RESET NETWORK
 
-:: إيقاف كرت الشبكة
-echo [+] إيقاف كرت الشبكة...
-netsh interface set interface name=%adapterName% admin=disable
-timeout /t 5 /nobreak >nul
+color 60
+echo ' > "deletethisfile.vbs"
+echo set speech = Wscript.CreateObject("SAPI.spVoice") >> "deletethisfile.vbs"
+echo speech.speak "Delete Reports" >> "deletethisfile.vbs"
+start deletethisfile.vbs
+timeout /t 1
+del deletethisfile.vbs
+timeout /t 10
+cls
 
-:: تشغيل كرت الشبكة
-echo [+] تشغيل كرت الشبكة...
-netsh interface set interface name=%adapterName% admin=enable
-timeout /t 5 /nobreak >nul
+color 40
 
-:: تحرير وتجديد عنوان IP
-echo [+] تحرير وتجديد عنوان IP...
-ipconfig /release >nul
-timeout /t 3 /nobreak >nul
-ipconfig /renew >nul
+netsh winsock reset
+ipconfig /registerdns
+ipconfig /release
+ipconfig /flushdns
+ipconfig /renew
 
-echo.
-echo [✔] تم إعادة الاتصال. الانتظار 100 ثانية...
-timeout /t 100 /nobreak >nul
-goto loop
+timeout /t 1
+del deletethisfile.vbs
+timeout /t 4
+color 47
+timeout /t 100
+GOTO loop
